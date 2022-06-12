@@ -1,5 +1,4 @@
 # 10.-Netpractice
-# 42cursus - netwhat
 
 ## Table of Contents
 1. [Internet Protocol (IP)](#internet-protocol-ip)
