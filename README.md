@@ -1,14 +1,19 @@
 # 10.-Netpractice
 
 ## Table of Contents
-1. [Internet Protocol (IP)](#internet-protocol-ip)
-2. [Netmask](#netmask)
-3. [Transmission Control Protocol (TCP)](#transmission-control-protocol-tcp)
-4. [User Datagram Protocol (UDP)](#user-datagram-protocol-udp)
-5. [Open Systems Interconnection (OSI) Model](#open-systems-interconnection-osi-model)
-6. [Dynamic Host Configuration Protocol (DHCP)](#dynamic-host-configuration-protocol-dhcp)
-7. [Domain Name System (DNS)](#domain-name-system-dns)
-8. [Ping](#ping)
+1. [Goal](#Goal)
+2. [Internet Protocol (IP)](#internet-protocol-ip)
+3. [Netmask](#netmask)
+4. [Transmission Control Protocol (TCP)](#transmission-control-protocol-tcp)
+5. [User Datagram Protocol (UDP)](#user-datagram-protocol-udp)
+6. [Open Systems Interconnection (OSI) Model](#open-systems-interconnection-osi-model)
+7. [Dynamic Host Configuration Protocol (DHCP)](#dynamic-host-configuration-protocol-dhcp)
+8. [Domain Name System (DNS)](#domain-name-system-dns)
+9. [Ping](#ping)
+
+
+## Goal
+> Solve the 10 Network level and understand how TCP/IP addressing works.
 
 ## Internet Protocol (IP)
 - IPv4 addresses are 32 bits long *(4,294,967,296 or 2^32 addresses)*
@@ -112,7 +117,7 @@
 - No sequencing of data; has to be managed by application layer if ordering is required
 - Only has basic error checking mechanism using checksums
 
-## Open Systems Interconnection (OSI) Model
+## Open Systems Interconnection (OSI)
 1. Application Layer
 2. Presentation Layer
 3. Session Layer
@@ -132,3 +137,15 @@
 ## Ping
 - Operates by sending *Internet Control Message Protocol (ICMP)* echo request packets to target host and waiting for ICMP echo reply
 - `ping localhost` or `ping 127.0.0.1` to test IP stack
+
+
+
+## 42 Project 100/100
+
+## Ressources
+
+* [Adresse IP](https://www.youtube.com/watch?v=Oc7Ts8tVjyE)
+* [Ports et Protocoles](https://www.youtube.com/watch?v=YSl6bordSh8)
+* [Subnetting](https://www.youtube.com/watch?v=ecCuyq-Wprc&t=699s)
+
+
